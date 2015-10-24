@@ -1,0 +1,8 @@
+MODULE    = winexrdp.drv
+IMPORTS   = uuid user32 gdi32 advapi32
+DELAYIMPORTS = comctl32 ole32 shell32 imm32
+
+C_SRCS = \
+	init.c
+
+RC_SRCS = version.rc
